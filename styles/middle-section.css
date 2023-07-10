@@ -1,0 +1,411 @@
+@media screen and (max-width:850px) {
+  .sidebar-container{
+    display: none;
+  }
+
+}
+@media screen and (min-width:850px){
+  .sidebar-alternate-container{
+    display:none;
+  }
+
+}
+@media screen  and (max-width:720px){
+  .sidebar-alternate-container{
+    display: none;
+  }
+
+}
+@media screen and (max-width:673px){
+  .right-content-section{
+    display: none;
+  }
+}
+
+.body-section{
+  margin-top: 0;
+  width: 397px;
+  height: 1036px;
+  border-left-width: 0.5px;
+  border-right-width: 0.5px;
+  border-color: rgb(206, 206, 206);
+  border-left-style: solid;
+  border-right-style: solid;
+}
+.header-section{
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  border-bottom-width: 0.5px;
+  border-bottom-color: rgb(206, 206, 206);
+  border-bottom-style: solid;
+  justify-content: space-around;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.975;
+}
+.top-header-section{
+  padding: 0 8px;
+  font-family: 13px;
+}
+.bottom-header-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 397px;
+  font-size: 11px;
+
+}
+
+/* end of header
+*/
+
+.content-info-container{
+  width: 381px;
+  height: 90px;
+  padding: 4px 8px 0 8px ;
+  border-bottom-width: 0.5px;
+  border-bottom-color: rgb(206, 206, 206);
+  border-bottom-style: solid;
+}
+.content-info{
+  width: 381px;
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+}
+
+.content-info img{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.profile-container{
+  width: 30px;
+  height: 82px;
+  padding-top: 8px;
+  margin-right: 6px;
+
+
+}
+
+.profile-bottom-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 130px;
+  height: 18px;
+  margin-top: 6px;
+  align-items: center;
+
+}
+.profile-bottom-section img{
+  width: 15px;
+  height: 15px;
+}
+
+.profile-bottom-section-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 356px;
+  height: 28px;
+  margin: 0 2px;
+}
+
+.main-content{
+  width: 345px;
+  height: 76px;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-holder{
+  width: 343px;
+  height: 28px;
+  border: none;
+}
+input{
+  width: 343px;
+  height: 14px;
+  padding: 12px 0;
+  border: none;
+  font-size: medium;
+  outline: none;
+}
+
+.tweet-button{
+  width: 88px;
+  height: 28px;
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tweet-button button{
+  width: 60px;
+  height: 25px;
+  font-size: 12px;
+  font-family: arial;
+  color: white;
+  font-weight: 600;
+  border: 1px;
+  padding: 0 8px;
+  margin-left: 10px;
+  border-radius: 22.5px;
+  border-style: none;
+  background-color: rgb(29, 155, 240);
+  opacity: 0.5;
+}
+
+/*  end of whats happening section*/
+/*start of obama post*/
+
+.post-container,
+.elon-post-container,
+.cnn-post-container{
+  width: 374px;
+  padding: 4px 8px 0 8px;
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: rgb(206, 206, 206);
+
+}
+.post-container{
+  height: 417px;
+
+}
+
+.cnn-profile-section,
+.profile-section,
+.elon-profile-section{
+  width: 30px;
+  margin-right: 8px;
+}
+.profile-section{
+  height: 417px;
+}
+.elon-profile-section img,
+.profile-section img{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.content-section,
+.cnn-content-section,
+.elon-content-section{
+  width: 343px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content-section{
+  height: 405px;
+}
+
+.top-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 343px;
+  height: 18px;
+}
+
+.left-top-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 308px;
+  height: 18px;
+  font-size: 12px;
+}
+.name{
+  font-weight: bold;
+}
+
+.leg-ver{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.leg-ver img{
+  width: 12px;
+  height: 12px;
+}
+.user-time{
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.right-top-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.right-top-section img{
+  width: 15.750px;
+  height: 15.750px;
+
+}
+.content-description{
+  width: 343px;
+  font-family: arial;
+  font-size: 11.5px;
+}
+.content-description{
+  height: 30px;
+}
+.content-image img{
+  width: 300px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* start of bottom section container*/
+
+.flexbox{
+  width: 264px;
+  height: 15px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reply-info-container,
+.retweet-info-container,
+.like-info-container,
+.view-info-container,
+.upload-info-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+}
+
+.reply-info-container img{
+  width: 13px;
+  height: 12px;
+}
+
+.like-info-container img,
+.view-info-container img,
+.upload-info-container img{
+  width: 15.75px;
+  height: 15.75;
+}
+
+.retweet-info-container img{
+  width: 16.6px;
+  height: 11.6px;
+  object-fit: contain;
+}
+
+.reply-count,
+.retweet-count,
+.like-count,
+.view-count{
+  font-family: arial;
+  font-size: 10px;
+  width: auto;
+  height: auto;
+  padding: 0 6px;
+}
+
+
+/* start of elon musk post*/
+/* end of obama post*/
+.elon-middle-section{
+  height: 60px;
+}
+.elon-content-description{
+  height: 40px;
+  width: 335px;
+  font-size: 12px;
+}
+.content-about{
+  font-size: 11px;
+}
+
+
+.elon-middle-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75px;
+}
+
+
+
+
+.cnn-content-section{
+  height: 318px;
+}
+.cnn-profile-section{
+  height: 330px;
+}
+.cnn-profile-section img{
+  height: 30px;
+  width: 30px;
+  border-radius: 3px;
+  object-fit: contain;
+
+}
+.cnn-content-image{
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.cnn-content-image img{
+  height: 180px;
+  width: 343px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+.link{
+  display: flex;
+  flex-direction: column;
+  height: 54px;
+  width: 326px;
+  padding: 6px;
+}
+
+.about,
+.topic{
+  font-size: 12px;
+}
+.about{
+  color: rgb(83, 100, 113);
+}
+.link-address{
+  color: rgb(83, 100, 113);
+  font-size: 12px;
+}
+
